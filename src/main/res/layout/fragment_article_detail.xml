@@ -24,13 +24,14 @@
                     android:id="@+id/toolbar"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="#ccc"
                     app:contentInsetEnd="0dp"
                     app:contentInsetStart="0dp">
 
                     <ImageView
                         android:id="@+id/photo"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="250dp"
                         android:scaleType="centerCrop" />
 
                 </android.support.v7.widget.Toolbar>
